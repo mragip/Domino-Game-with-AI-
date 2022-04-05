@@ -179,8 +179,7 @@ while len(computerset) >= 0 and len(playerset) >= 0:
            
         #Computer selects highest scored piece to decide movement
         if len(cmovel) != 0:
-            cmove = cmovel[cmovelsc.index(max(cmovelsc))]
-            print("cmove",cmove)
+            cmove = cmovel[cmovelsc.index(max(cmovelsc))
 
             if snake[-1][-1] == cmove[0]:
                 snake.append(cmove)
